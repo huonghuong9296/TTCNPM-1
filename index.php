@@ -13,7 +13,7 @@ require "lib/dbCon.php";
 <div id="wrap-vp">
   <div id="header-vp">
     	<div id="logo">
-    	  <p><strong><img src="images/logo.png" width=50% align="texttop"/><span style="font-size: 18px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">TICKET</span></strong><span style="font-size: 12px"></span>FAST</p>
+    	  <p><strong><img src="logo.png" width=50% align="texttop"/><span style="font-size: 18px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">TICKET</span></strong><span style="font-size: 12px"></span>FAST</p>
     	  <p>&nbsp;</p>
 	</div>
     <div id="login"> LOGIN</div>
@@ -25,19 +25,19 @@ require "lib/dbCon.php";
   	<div id="content-vp">
     	<div id="content-left">
 	 	  <div class=menuCon>
-				<img src="images/Icon_bus.png" height = 10% align="texttop" /><a>VÉ XE</a>
+				<img src="Icon_bus.png" height = 10% align="texttop" /><a>VÉ XE</a>
 			</div>
 		  <div class=menuCon>
-				<img src="images/Icon_cinema.PNG" height = 10% align="texttop"  /><a>VÉ GIẢI TRÍ</a>
+				<img src="Icon_cinema.PNG" height = 10% align="texttop"  /><a>VÉ GIẢI TRÍ</a>
 			</div>
 		  <div class=menuCon>
-				<img src="images/Icon_giohang.png" height = 10% align="texttop" /><a>GIỎ HÀNG</a>
+				<img src="Icon_giohang.png" height = 10% align="texttop" /><a>GIỎ HÀNG</a>
 			</div>
 		  <div class=menuCon>
-				<img src="images/Icon_upload.png" height = 10% align="texttop" /><a>UPLOAD VÉ</a>
+				<img src="Icon_upload.png" height = 10% align="texttop" /><a>UPLOAD VÉ</a>
 			</div>
 		  <div class=menuCon>
-			<img src="images/Icon_thông tin.png" height = 10% align="texttop" /><a>THÔNG TIN</a></div>
+			<img src="Icon_thông tin.png" height = 10% align="texttop" /><a>THÔNG TIN</a></div>
    	  </div>
     	<div id="content-main">
         <blockquote>
@@ -60,7 +60,7 @@ require "lib/dbCon.php";
     	<!--blocks/footer.php-->
         
         <div class="ft-bot">
-            <div class="bot1"><img src="images/logo.png" width =100%,  /></div>
+            <div class="bot1"><img src="logo.png" width =100%,  /></div>
             <div class="bot2">
                      <p>© <span>Trang web bán vé điện tử</span>  Nhóm 63</p>
                      <p>®Đề tài thực hiện: website bán vé.</p>
