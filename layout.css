@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0}
+body{ font-family:Arial, sans-serif; font-size:12px}
+a{ text-decoration:none}
+ul{ list-style:none}
+.left{ float:left; margin:0 2px}
+.right{ float:right}
+.clear{ clear:both; height:5px; margin:5px 0}
+.title{ margin:5px 0 5px 0}
+.des{ color:#333; margin-top:3px; line-height:140%} 
+.images_news{ width:120px; margin:0 7px 7px 0}
+.tlq{ background:url(../images/bg_dot_gray_3x3.gif) no-repeat left 5px; padding-left:10px; height:auto}
+.tlq a{ color:#999; font-size:11px; font-weight:bold; line-height:140%}
+.tlq a:hover{ color:#900;}
+.xemthem{ color:#666; font-size:11px;}
+.xemthem:hover{ color:#069;}
+.hit{ background:url(../images/icon_title.png) -22px 0 no-repeat; width:2px; height:10px; float:right; color:#900; margin:0 8px 0 0; padding:0 0 0 18px; font-weight:normal; font-size:11px}
+
+
+
+#wrap-vp{ width:1000px; margin:15px auto}
+#header-vp{ height:70px;}
+	#logo{ width:300px; float:left; margin-top:5px}
+	#login{width:300px; float:right; margin-top:5px}
+		
+#menu-vp{ border-bottom:3px solid #CCC; padding:0 0 3px 0px}
+	#menu-vp ul{ }
+	#menu-vp ul li{ display:inline;border-right: solid 1px #CCCCCC;}
+	#menu-vp ul li a{ color:#333; font-weight:bold; font-size:12px; padding:0 3px 0 3px }
+	#menu-vp ul li:last-child{ border-right:none}	
+	#menu-vp ul li a:hover{ color:#900}
+	
+
+#content-vp{
+    font-size: 16px;
+    text-align: right;
+}
+	#content-vp #content-left{border-right:solid 1px #E2E2E3; width:16%; float:left; padding: 5px; min-height:200px;}
+	#content-vp #content-main{border-right:solid 1px #E2E2E3; width:65%; float:left; padding: 5px; min-height:500px; margin: 0 0 0 5px; }
+	#content-vp #content-right{width:14%; float:left; padding: 5px; min-height:500px;}
+	
+#content-ct #content-left{border-right:solid 1px #E2E2E3; width:51%; float:left; padding: 5px; min-height:500px; margin:7px 0 0 0; font-size:14px}
+#content-vp  #content-left .menuCon{background:  #F3C1E8;line-height: 80px; float: inherit; padding: 5px}
+#content-vp  #content-left .menuCon img{height: 50px; float: left; padding: 5px}
+	#content-vp #content-main .chitiet{ line-height:150%; margin:0 0 40px 0}
+	#content-vp #content-main .btn_quantam{ background:url(../images/btn_quantam.gif) no-repeat; width:75px; height:20px; float:left}
+	#content-vp #content-main .number_count span{float: left;height: 20px;display: block;background: #f5f5f5;color: #656565;padding: 0 5px 0 3px;
+}
+	#content-vp #content-main #tincungloai{ margin:10px 0 0 0}
+	#content-vp #content-main #tincungloai ul li{ display:inline; width:32%; float: left; margin:10px 7px 0 0}
+	#content-vp #content-main #tincungloai .title a{ color:#900}
+	#content-vp #content-main #tincungloai .title a:hover{ color:#069}
+	#content-vp #content-main #tincungloai ul li a{ color:#333; font-weight:bold}
+	#content-vp #content-main #tincungloai ul li a:hover{ color:#900}
+	#content-vp #content-main #tincungloai ul li img{ width:170px; margin:0 0 5px 0}
+	#content-vp #content-main #tincungloai .title{ font-size:12px; margin-top:10px}
+
+
+#content-vp	#content-right .cat .cat-content .title a{ color:#333}	
+#content-vp #content-right .cat .cat-content .title a:hover{ color:#900}	
+#content-vp #content-right .cat .cat-content .col2{ float:left; clear:both}	
+	
+		#content-vp #content-left .news{ min-height:150px; border-bottom:solid 1px #E2E2E3; padding:10px 0; margin-right:5px}
+		#content-vp #content-left .title a{ color:#333; font-weight:bold}
+		#content-vp #content-left a:hover{ color:#900}
+	
+	#content-vp #content-main .box-cat{ margin-right:5px}
+	#content-vp .cat{ background:url(../images/bg_1x28.gif) repeat-x; height:30px; padding:0 0 0 10px; margin:7px 0 10px 0}
+	#content-vp .main-cat{ width:auto; float:left}
+	#content-vp .main-cat a{ border-top:solid 1px #900; color:#900; font-weight:bold; display:block; height:30px; padding:5px 0 0 10px; font-size:12px}
+	#content-vp #content-main .child-cat{ width:79%; margin:6px 0 0 5px; float:left}
+	#content-vp #content-main .child-cat a{ font-weight:bold; height:30px;  font-size:12px; color:#333; border-right:1px solid #E2E2E3; font-size:11px; padding: 0 3px 0 3px}
+	#content-vp #content-main .cat-content .col1{ width:75%; float:left}
+	#content-vp #content-main .cat-content .col0{ width:100%}
+	#content-ct #content-main .cat-content .col1{ border-bottom:1px solid #E2E2E3; margin:0 0 10px 0}
+	#content-vp #content-main .cat-content .col1 .title a{ color:#333;}
+	#content-vp #content-main .cat-content .col1 .title a:hover{ color:#900;}
+	#content-vp #content-main .cat-content .col2{ width:24%; float:left}
+	
+	#content-vp #content-right img{ margin:0 5px 5 0}
+	
+
+#footer{ margin-top: 10px;}	
+	#footer .SetHomePage{ background:url(../images/icon_resonesive.gif) no-repeat; width:20px; height:20px; background-position:0 0; display:inline-block; margin:0 5px 0 5px;}
+	#footer .top {background:url(../images/icon_resonesive.gif) no-repeat; width:20px; height:20px; background-position:-20px 0; display:inline-block; max-resolution: 	res;0 5px 0 5px}
+	.thongtin-title .right a{ color:#666; font-weight:bold; margin:3px 5px 0 0px; display:block; float:left; border-right:solid 1px #E2E2E3; padding:0 5px }
+	#footer .ulBlockMenu{ width:160px; float:left}
+	#footer .ulBlockMenu a{ color:#333; font-size:12px; font-weight:normal}
+	#footer .ulBlockMenu a:hover{ color:#900;}
+	#footer .ulBlockMenu li{ margin-bottom:5px}
+	#footer .thongtin-content{ height:220px; padding:20px}
+	#footer .lineFmenu{ height:140px}
+	#footer .liFirst a{ font-weight:bold}
+	#footer .ft-bot{ margin:10px 0 10px 0}
+	#footer .bot1, #footer .bot2, #footer .bot3{ float:left}
+	#footer .bot1{ width:10%}
+	#footer .bot2{ width:30%}
+	#footer .bot3{ width:60%; float:right; text-align:right}
+	
+	
+	
+	
+	
+	
